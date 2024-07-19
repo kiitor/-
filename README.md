@@ -14,3 +14,6 @@
 - 関数として実行する（「=check()」とセルに入力しエンター）
 - ボタンに適用する←推奨
   - メニューバーの「挿入」→「図形描画」→ボタンの図形を作る（テキストもここで入力）→三点リーダから「スクリプトを割り当て」→関数「check」を適用　※注意　check()にしないこと
+
+↓今年度の開発用。コピーを作成して動作確認にどうぞ。（スクリプト、ボタン適用済み）
+https://docs.google.com/spreadsheets/d/1aSSi3K7ywdENwNlh-FlkvBWZAqiYYM0MMg8BJy_sciE/edit?usp=sharing
