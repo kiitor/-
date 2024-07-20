@@ -33,6 +33,5 @@ function check() {
     Browser.msgBox(result[0].grade + '年' + result[0].studentClass + '組' + result[0].num + '番の' + result[0].name + 'さんはすでに受け取り済みになっています');
   } else {
     sheet.getRange('N' + String(result[0].row)).setValue(true);
-    Browser.msgBox(result[0].grade + '年' + result[0].studentClass + '組' + result[0].num + '番の' + result[0].name + 'さんを受け取り済みにしました' + '\r' + '詳細：' + 'S: ' + result[0].shirts.s + '枚 M: ' + result[0].shirts.m + '枚 L: ' + result[0].shirts.l + '枚 XL: ' + result[0].shirts.xl + '枚 シャーペン: ' + result[0].mechpen + '本 クリアファイル：' + result[0].file + '枚 キーホルダー： ' + result[0].keyhol + '個 トートバッグ： ' + result[0].bag + '枚');
+    Browser.msgBox(result[0].grade + '年' + result[0].studentClass + '組' + result[0].num + '番の' + result[0].name + 'さんを受け取り済みにしました' + '\r' + 'S:' + result[0].shirts.s + ', M:' + result[0].shirts.m + ', L:' + result[0].shirts.l + ', XL:' + result[0].shirts.xl + ', ｼｬｰﾍﾟﾝ: ' + result[0].mechpen + ', ﾌｧｲﾙ:' + result[0].file + ', ｱｸｷｰ:' + result[0].keyhol + ', ﾄｰﾄﾊﾞｯｸﾞ:' + result[0].bag);
   }
-}
