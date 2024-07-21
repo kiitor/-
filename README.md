@@ -18,6 +18,7 @@
 
 **その他**
 - 色々洗練できるところはあると思いますが（最後の出力をforループで書くとか）めんどくさいのでやってません。技セクのJavaScriptわかる人に相談したらいいと思います。
+- 今専用のwebサイトからシートをいじれるようにしようと思ってるのでできたら更新します
 
 ↓今年度の開発用。コピーを作成して動作確認にどうぞ。（スクリプト、ボタン適用済み）
 https://docs.google.com/spreadsheets/d/1aSSi3K7ywdENwNlh-FlkvBWZAqiYYM0MMg8BJy_sciE/edit?usp=sharing
